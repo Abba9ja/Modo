@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_send_sel_24dp" android:state_pressed="true" />
+    <item android:drawable="@drawable/ic_send_sel_24dp" android:state_activated="true" />
+    <item android:drawable="@drawable/ic_send_sel_24dp" android:state_selected="true" />
+    <!-- This should have a default drawable color = "@android:color/background_light" -->
+    <item android:drawable="@drawable/ic_send_black_24dp" />
+</selector>

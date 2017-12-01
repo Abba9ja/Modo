@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/myAccount"
+            android:icon="@drawable/ic_perm_identity_black_24dp"
+            android:title="@string/my_account" />
+       <item
+            android:id="@+id/nav_my_post"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/my_post" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_langauge"
+                android:icon="@drawable/ic_g_translate_black_24dp"
+                android:title="@string/change_language" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="@string/app_suggestion" />
+            <item
+                android:id="@+id/nav_view_guide"
+                android:icon="@drawable/ic_ondemand_video_black_24dp"
+                android:title="@string/view_guide" />
+            <item
+                android:id="@+id/invite"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/my_invitation" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send" />
+            <item
+                android:id="@+id/nav_fblike"
+                android:icon="@drawable/ic_thumb_up_black_24dp"
+                android:title="@string/facebook" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>

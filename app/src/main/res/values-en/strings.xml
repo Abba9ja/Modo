@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Modo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="crypto_prompt">Choose a currency</string>
+
+    <string-array xmlns:android="http://schemas.android.com/apk/res/android" name="crypto_arrays">
+        <item android:drawableLeft="">BTC</item>
+        <item>ETH</item>
+    </string-array>
+
+    <string name="unknown_sign_in_response">Unknown response from AuthUI sign-in</string>
+    <string name="unknown_error">An unknown error occurred</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="fui_required_field" translation_description="Inline error for required field">You can\'t leave this empty.</string>
+    <string name="unknown_response">Unexpected onActivityResult response code</string>
+    <string name="slide_1_title">Modo</string>
+    <string name="slide_1_desc">The app is an  art and craft exhibition app where artisans display in their works on android platform for users to see and buy.
+</string>
+
+    <string name="slide_3_title">Google Cloud Translation API</string>
+    <string name="slide_3_desc">We use the Google Cloud Translation API to translate the app contents to your satisfied language. The API provides a simple programmatic interface for translating an arbitrary string into any supported language using state-of-the-art Neural Machine Translation.</string>
+
+    <string name="slide_2_title">Monitize your Idea</string>
+    <string name="slide_2_desc">Also this App would give the you room to sell and showcase their works easy and hassle free.
+    </string>
+
+    <string name="slide_4_title">Share Art and Craft</string>
+    <string name="slide_4_desc">Share art and craft across social media with family and friends!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="signed_in_fmt">Hi %s feel free to dive in the Smart Tape settings</string>
+    <string name="developer">Developer</string>
+    <string name="muhammad_shehu_bello_abba9ja">Muhammad Shehu Bello (Abba9ja)</string>
+    <string name="title_activity_landing">LandingActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- - - - - - - - - - - -->
+    <!--Used by Preferences  -->
+    <!-- - - - - - - - - - - -->
+
+    <string name="pref_language_label">Choose language</string>
+
+    <!-- Key name for Langauge sort order preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_langauge_label_choose">Choose</string>
+    <string name="pref_langauge_label_english">English</string>
+    <string name="pref_langauge_label_hausa">Hausa</string>
+    <string name="pref_langauge_label_yoruba">Yoruba</string>
+    <string name="pref_langauge_label_igbo">Igbo</string>
+
+    <!-- Value in SharedPreferences for popular movies sort option [CHAR LIMIT=NONE] -->
+    <string name="pref_langauge_english" translatable="false">English</string>
+    <string name="pref_langauge_hausa" translatable="false">Hausa</string>
+    <string name="pref_langauge_yoruba" translatable="false">Yoruba</string>
+    <string name="pref_langauge_igbo" translatable="false">Igbo</string>
+
+    <string name="profile_details">Profile details:</string>
+    <string name="namelbl">Name:</string>
+    <string name="hausaCaps">HAUSA</string>
+    <string name="englishCaps">ENGLISH</string>
+    <string name="guideCaps">GUIDE</string>
+    <string name="click_on_the_add_picture_icon">click on the add picture icon</string>
+    <string name="post_title">Post title ...</string>
+    <string name="post_description">Post description ...</string>
+    <string name="modo_it">Modo it</string>
+    <string name="mail_user">Mail User</string>
+    <string name="email">Email:</string>
+    <string name="provider">Provider:</string>
+    <string name="muhammad_shehu_bello">Muhammad Shehu Bello</string>
+    <string name="post_titlelbl">Post Title</string>
+    <string name="modo_with">Modo with</string>
+    <string name="done">DONE</string>
+    <string name="like">like</string>
+    <string name="share">Share</string>
+    <string name="phone">Phone</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="loading_slowly">Loading slowly</string>
+    <string name="need_more_categories">Need more categories</string>
+    <string name="problem_sharing">Problem sharing</string>
+    <string name="app_shuting_down">App Shuting Down</string>
+    <string name="additional_subject">Additional subject</string>
+    <string name="description_required">*Description(required)</string>
+    <string name="dev_email_address">abba9ja@gmail.com</string>
+    <string name="send_app_mail_lbl">Send mail to Developer:</string>
+    <string name="not_email_app">No email app found</string>
+    <string name="descriptio_required">Description required!</string>
+    <string name="loading_slow">LOADING DATA SLOWLY,</string>
+    <string name="need_more_cate">NEED MORE CATEGORIES,</string>
+    <string name="problem_sharing_app_suggestion">HAVING PROBLEM SHARING,</string>
+    <string name="app_crashing">APP CRASHING,</string>
+    <string name="send">Send</string>
+    <string name="my_invitation">My Invitation</string>
+    <string name="app_suggestion">App suggestion</string>
+    <string name="change_language">Change language</string>
+    <string name="my_post">My Post</string>
+    <string name="my_account">My Account</string>
+    <string name="home">Home</string>
+    <string name="tvcontinue">CONTINUE</string>
+    <string name="no_email">No email</string>
+    <string name="no_display_name">No display name</string>
+    <string name="providers_used">Providers used:</string>
+    <string name="share_app_via">Share app via</string>
+    <string name="my_post_title">My Posts</string>
+    <string name="posting_to_modo">Posting to Modo ...</string>
+    <string name="picture_required">Picture required *</string>
+    <string name="no_email_app_fount">No email app found</string>
+    <string name="send_mail_to_modos">Send mail to Modos:</string>
+    <string name="comment_empty">Comment empty</string>
+    <string name="posting_mod_comment">Posting Modo ...</string>
+    <string name="shar_modo_post">Share Modo Post with Love ones</string>
+    <string name="liked">Liked</string>
+    <string name="my_profile">My profile</string>
+    <string name="no_display_number">No display number</string>
+    <string name="none">none</string>
+    <string name="submit">Submit</string>
+    <string name="popular_topics">Popular topics</string>
+    <string name="submit_post">Submit Post</string>
+    <string name="write_a_modo">Write a modo</string>
+    <string name="view_guide">View guide</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="your">Your</string>
+    <string name="bid">bid</string>
+    <string name="on">on</string>
+    <string name="declarinf_sold_to">Declaring sold to</string>
+    <string name="of">of</string>
+    <string name="mail_winner">Mail Winner</string>
+    <string name="cancel_d">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="bid_for_it">₦: Bid for it</string>
+    <string name="deleting">Deleting</string>
+    <string name="your_modo">Your modo</string>
+    <string name="yourmodo">Your Modo</string>
+    <string name="yourpost">Your post</string>
+    <string name="onn">on</string>
+
+
+</resources>

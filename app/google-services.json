@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "293759924583",
+    "firebase_url": "https://modo-d54ee.firebaseio.com",
+    "project_id": "modo-d54ee",
+    "storage_bucket": "modo-d54ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293759924583:android:73e78d57b79849ea",
+        "android_client_info": {
+          "package_name": "com.abba9ja.modo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293759924583-c0nn4nhgcs3uhn6v05gs014r2n5od7d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abba9ja.modo",
+            "certificate_hash": "74fed54b82421f55088e94510a65070b38ce4eb2"
+          }
+        },
+        {
+          "client_id": "293759924583-7aqkam8bha05gj4l2hqh841415ppmuqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcErQgalAxlCPG6vsqjPfDA4vCL1yvyAE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293759924583-7aqkam8bha05gj4l2hqh841415ppmuqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

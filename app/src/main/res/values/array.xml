@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_langauge_options">
+        <item>@string/pref_langauge_label_english</item>
+        <item>@string/pref_langauge_label_hausa</item>
+        <item>@string/pref_langauge_label_yoruba</item>
+        <item>@string/pref_langauge_label_igbo</item>
+    </string-array>
+    <string-array name="pref_langauge_options_main">
+        <item>@string/pref_langauge_label_choose</item>
+        <item>@string/pref_langauge_label_english</item>
+        <item>@string/pref_langauge_label_hausa</item>
+        <item>@string/pref_langauge_label_yoruba</item>
+        <item>@string/pref_langauge_label_igbo</item>
+    </string-array>
+
+    <string-array name="pref_langauge_values">
+        <item>@string/pref_langauge_english</item>
+        <item>@string/pref_langauge_hausa</item>
+        <item>@string/pref_langauge_yoruba</item>
+        <item>@string/pref_langauge_igbo</item>
+    </string-array>
+</resources>

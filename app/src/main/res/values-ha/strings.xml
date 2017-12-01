@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Modo</string>
+
+    <string name="navigation_drawer_open">Bude kewayawa dakin dako</string>
+    <string name="navigation_drawer_close">Kule kewayawa dakin dako</string>
+
+    <string name="action_settings">Saitin</string>
+
+    <string name="title_activity_welcome">Kushin gidan</string>
+    <string name="next">GABA</string>
+    <string name="skip">TSALLEKE</string>
+    <string name="start">NA GANE</string>
+
+
+    <string name="unknown_sign_in_response">Bayanin da ba'a sani ba daga AuthUI shiga</string>
+    <string name="unknown_error">An sami kuskuren kuskure</string>
+    <string name="no_internet_connection">Babu haɗin yanar gizo</string>
+    <string name="sign_in_cancelled">An soke ta shiga</string>
+    <string name="fui_required_field" translation_description="Inline error for required field">Ba za ku iya \'barin wannan komai ba.</string>
+    <string name="unknown_response">Abubuwan da ba a tsammani ba a kan AyyukanResultResult</string>
+    <string name="slide_1_title">Modo</string>
+    <string name="slide_1_desc">Aikace-aikacen zane-zane ne na kayan fasahar fasahar fasaha da fasaha inda masu fasaha ke nunawa a cikin ayyukansu akan dandalin gamayyar android don masu amfani su gani da saya.
+</string>
+
+    <string name="slide_3_title">Google Cloud Translation API</string>
+    <string name="slide_3_desc"> Muna amfani da API Google Cloud Translation API don fassara abubuwan da ke ciki zuwa harshenku wanda ya dace. API na samar da ƙwarewar shirye-shiryen neman sauƙi na fassara wani kirki mai tsauri zuwa kowane harshe wanda aka tallafawa ta amfani da hanyar Neural Machine Translation. </string>
+
+    <string name="slide_2_title">Monetize ra'ayinka</string>
+    <string name="slide_2_desc">Har ila yau, wannan App zai ba ku daman sayar da su da kuma nuna ayyukan su sauƙi kuma bala'in kyauta.
+    </string>
+
+    <string name="slide_4_title">Raba Art da Craft</string>
+    <string name="slide_4_desc">Raba fasaha da sana'a a fadin kafofin watsa labarun tare da dangi da abokai!
+	</string>
+
+    <string name="play_again_desc">Don sake ganin sakonnin maraba, goto Saituna -> aikace-aikace -> marabaccen zane -> share bayanai</string>
+    <string name="play_again">Play Again</string>
+  
+    <string name="title_activity_landing">LandingActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- - - - - - - - - - - -->
+    <!--Used by Preferences  -->
+    <!-- - - - - - - - - - - -->
+
+    <string name="pref_language_label">Zabi harshen</string>
+
+    <!-- Key name for Langauge sort order preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_language_key" translatable="false">language</string>
+
+
+    <string name="pref_langauge_label_english">English</string>
+    <string name="pref_langauge_label_hausa">Hausa</string>
+    <string name="pref_langauge_label_yoruba">Yoruba</string>
+    <string name="pref_langauge_label_igbo">Igbo</string>
+
+    <!-- Value in SharedPreferences for popular movies sort option [CHAR LIMIT=NONE] -->
+    <string name="pref_langauge_english" translatable="false">English</string>
+    <string name="pref_langauge_hausa" translatable="false">Hausa</string>
+    <string name="pref_langauge_yoruba" translatable="false">Yoruba</string>
+    <string name="pref_langauge_igbo" translatable="false">Igbo</string>
+
+    <string name="profile_details">Profile details:</string>
+    <string name="namelbl">Sunan:</string>
+    <string name="hausaCaps">HAUSA</string>
+    <string name="englishCaps">ENGLISH</string>
+    <string name="guideCaps">JAORA</string>
+    <string name="click_on_the_add_picture_icon">
+danna kan ƙara hoto</string>
+    <string name="post_title">Taken post ...</string>
+    <string name="post_description">bayanin post ...</string>
+    <string name="modo_it">Modo shi</string>
+    <string name="mail_user">Turo mai sako</string>
+    <string name="email">Imel: </string>
+    <string name="provider">Mai bayarwa: </string>
+    <string name="muhammad_shehu_bello">Muhammad Shehu Bello</string>
+    <string name="post_titlelbl">Taken Post</string>
+    <string name="modo_with">Modo tare da</string>
+    <string name="done">yi</string>
+    <string name="like">ƙauna</string>
+    <string name="share">Raba</string>
+    <string name="phone">Waya</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="loading_slowly">Sannu a hankali</string>
+    <string name="need_more_categories">Ana buƙatar karin nau'in</string>
+    <string name="problem_sharing">Samun Matasala wajen raba</string>
+    <string name="app_shuting_down">App na rufe wa</string>
+    <string name="additional_subject">Karin bayani</string>
+    <string name="description_required">* Bukatar (Bayani)</string>
+    <string name="dev_email_address">abba9ja@gmail.com</string>
+    <string name="send_app_mail_lbl">Aika wasikar zuwa Developer:</string>
+    <string name="not_email_app">Ba a samu imel ɗin imel ba</string>
+    <string name="descriptio_required">Bukatar bayani!</string>
+    <string name="loading_slow">LOADING DATA SLOWLY,</string>
+    <string name="need_more_cate">NEED MORE CATEGORIES,</string>
+    <string name="problem_sharing_app_suggestion">HAVING PROBLEM SHARING,</string>
+    <string name="app_crashing">APP CRASHING,</string>
+    <string name="send">Aika</string>
+    <string name="my_invitation">Gayyata ta</string>
+    <string name="app_suggestion">Shafin shawara</string>
+    <string name="change_language">Canja harshe</string>
+    <string name="my_post">Abubuwa na</string>
+    <string name="my_account">Asusunka</string>
+    <string name="home">Gida</string>
+    <string name="tvcontinue">CI GABA</string>
+    <string name="no_email">Ba imel</string>
+    <string name="no_display_name">Babu sunan nuni: </string>
+    <string name="providers_used">masu samarwa:</string>
+    <string name="share_app_via">Raba app ta</string>
+    <string name="my_post_title">Abubuwa na</string>
+    <string name="posting_to_modo">Aika zuwa Modo ...</string>
+    <string name="picture_required">Hoto da ake bukata *</string>
+    <string name="no_email_app_fount">Ba a samu imel ɗin imel ba</string>
+    <string name="send_mail_to_modos">Aika wasikar zuwa Modos:</string>
+    <string name="comment_empty">Comment ba komai</string>
+    <string name="posting_mod_comment">Aika Modo ...</string>
+    <string name="shar_modo_post">Raba Modo tare da ƙauna</string>
+    <string name="liked">ƙauna</string>
+    <string name="my_profile">Bayanan martaba</string>
+    <string name="no_display_number">Babu lambar nunawa</string>
+    <string name="none">babu</string>
+    <string name="submit">Sanya</string>
+    <string name="popular_topics">Mahimman batutuwa</string>
+    <string name="submit_post">Sanya Post</string>
+    <string name="write_a_modo">Rubuta modo</string>
+    <string name="view_guide">Duba jagorar</string>
+    <string name="sign_out">Saka fita</string>
+     <string name="your">Naka</string>
+    <string name="bid">karo</string>
+    <string name="on">a kan</string>
+    <string name="declarinf_sold_to">Bayyana sayar wa</string>
+    <string name="of">na</string>
+    <string name="mail_winner"> tura wa mai nasara sako</string>
+    <string name="cancel_d">Soke</string>
+    <string name="delete">Share</string>
+    <string name="bid_for_it">₦: karo don shi</string>
+    <string name="deleting">Share 'wa</string>
+    <string name="your_modo">Modo ka</string>
+    <string name="yourmodo">Modo ka</string>
+    <string name="yourpost">post ninka</string>
+    <string name="onn">a kan</string>
+     <string name="about">Game da App</string>
+</resources>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.abba9ja.modo.MessegingActivity">
+    <item
+        android:id="@+id/action_phone"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_local_phone_black_24dp"
+        android:title="@string/phone" />
+</menu>

@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Modo</string>
+
+    <string name="navigation_drawer_open">Sii Bọtini lilọ kiri</string>
+    <string name="navigation_drawer_close">Bọtini lilọ kiri ti o sunmọ</string>
+
+    <string name="action_settings">Ètò</string>
+
+    <string name="title_activity_welcome">Iboju ile</string>
+    <string name="next">ITELE</string>
+    <string name="skip">FOJO</string>
+    <string name="start">SE O RI</string>
+
+    <string name="unknown_sign_in_response">Aṣiṣe aimọ lati AuthUI sign-in</string>
+    <string name="unknown_error">Aṣiṣe aimọ kan ṣẹlẹ</string>
+    <string name="no_internet_connection">Ko si isopọ Ayelujara</string>
+    <string name="sign_in_cancelled">Sign in paarẹ</string>
+    <string name="fui_required_field" translation_description="Inline error for required field">Aṣiṣe ifọnti fun aaye ti a beere.</string>
+    <string name="unknown_response">Aṣiro lori ActivityResult koodu idahun</string>
+    <string name="slide_1_title">Modo</string>
+    <string name="slide_1_desc">Ifilọlẹ naa jẹ apẹẹrẹ awọn ohun elo ati iṣẹ-iṣẹ ti awọn iṣẹ ti o nfihan ni iṣẹ wọn lori apẹrẹ Android fun awọn olumulo lati wo ati ra.
+</string>
+
+    <string name="slide_3_title">Google Cloud Translation API</string>
+    <string name="slide_3_desc">A lo Google Cloud Translation API lati ṣe itumọ awọn akoonu ohun elo si ede ti o ni idaniloju. API n pese aaye ti o rọrun lati ṣe itọnisọna fun sisọ okun-iyasọtọ ni eyikeyi ede ti a ni atilẹyin nipasẹ lilo ọna ẹrọ Neural Machine Translation.</string>
+
+    <string name="slide_2_title">Monetize Ẹwa rẹ</string>
+    <string name="slide_2_desc">Bakannaa elo yii yoo fun ọ ni yara lati ta ati lati ṣe afihan iṣẹ wọn rọrun ati ailewu ọfẹ.
+    </string>
+
+    <string name="slide_4_title">Pin Aworan ati Ẹja</string>
+    <string name="slide_4_desc">Pin aworan ati iṣẹ-ṣiṣe kọja media media pẹlu awọn ẹbi ati awọn ọrẹ!</string>
+
+    <string name="play_again_desc">Lati wo igbadun igbadun naa lẹẹkansi, goto Awọn eto -> awọn ohun elo -> kaabo oludari -> ko o data</string>
+    <string name="play_again">Mu ṣiṣẹ lẹẹkansi</string>
+    
+    <string name="developer">Olùgbéejáde</string>
+    <string name="muhammad_shehu_bello_abba9ja">Muhammad Shehu Bello (Abba9ja)</string>
+    <string name="title_activity_landing">LandingActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- - - - - - - - - - - -->
+    <!--Used by Preferences  -->
+    <!-- - - - - - - - - - - -->
+
+    <string name="pref_language_label">Choose language</string>
+
+    <!-- Key name for Langauge sort order preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_langauge_label_choose">Choose</string>
+    <string name="pref_langauge_label_english">English</string>
+    <string name="pref_langauge_label_hausa">Hausa</string>
+    <string name="pref_langauge_label_yoruba">Yoruba</string>
+    <string name="pref_langauge_label_igbo">Igbo</string>
+
+    <!-- Value in SharedPreferences for popular movies sort option [CHAR LIMIT=NONE] -->
+    <string name="pref_langauge_english" translatable="false">English</string>
+    <string name="pref_langauge_hausa" translatable="false">Hausa</string>
+    <string name="pref_langauge_yoruba" translatable="false">Yoruba</string>
+    <string name="pref_langauge_igbo" translatable="false">Igbo</string>
+
+    <string name="profile_details">Awọn alaye profaili: </string>
+    <string name="namelbl">Orukọ: </string>
+    <string name="hausaCaps">HAUSA</string>
+    <string name="englishCaps">ENGLISH</string>
+    <string name="guideCaps">Itọsọna</string>
+    <string name="click_on_the_add_picture_icon">tẹ lori aami aworan atikun</string>
+    <string name="post_title">Akọle akọle ...</string>
+    <string name="post_description">Apejuwe apejuwe ...</string> 
+    <string name="modo_it">Modo o</string>
+    <string name="mail_user">Olumulo Mailr</string>
+    <string name="email">Imeeli: </string>
+    <string name="provider">Olupese:</string>
+    <string name="muhammad_shehu_bello">Muhammad Shehu Bello</string>
+    <string name="post_titlelbl">Afiwe Akọle</string>
+    <string name="modo_with">Modo pẹlu</string>
+    <string name="done">Ti ṣe</string>
+    <string name="like">bi</string>
+    <string name="share">Pinpin</string>
+    <string name="phone">Foonu</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="loading_slowly">Gbigbọn laiyara</string>
+    <string name="need_more_categories">O nilo awọn ẹka diẹ sii</string>
+    <string name="problem_sharing">
+Isoro iṣoro</string>
+    <string name="app_shuting_down">App Gbigbe isalẹ</string>
+    <string name="additional_subject">Koko-ọrọ afikun</string>
+    <string name="description_required">* Apejuwe (beere fun)</string>
+    <string name="dev_email_address">abba9ja@gmail.com</string>
+    <string name="send_app_mail_lbl">Firanṣẹ si imeeli si Olùgbéejáde:</string>
+    <string name="not_email_app">Ko si ohun elo imeeli ti o rii</string>
+    <string name="descriptio_required">Apejuwe ti a beere!</string>
+    <string name="loading_slow">LOADING DATA SLOWLY,</string>
+    <string name="need_more_cate">NEED MORE CATEGORIES,</string>
+    <string name="problem_sharing_app_suggestion">HAVING PROBLEM SHARING,</string>
+    <string name="app_crashing">APP CRASHING,</string>
+    <string name="send">Send</string>
+    <string name="my_invitation">My Invitation</string>
+    <string name="app_suggestion">App suggestion</string>
+    <string name="change_language">Change language</string>
+    <string name="my_post">Ifiranṣẹ mi</string>
+    <string name="my_account">Ipe mi</string>
+    <string name="home">Ile</string>
+    <string name="tvcontinue">MÁRẸ</string>
+    <string name="no_email">Ko si imeeli</string>
+    <string name="no_display_name">Ko si orukọ ifihan</string>
+    <string name="providers_used">Awọn olupese nlo: </string>
+    <string name="share_app_via">Pin ero nipasẹ</string>
+    <string name="my_post_title"> Ifiranṣẹ mi</string>
+    <string name="posting_to_modo">Ifiranṣẹ si Modo ...</string>
+    <string name="picture_required">Aworan ti a beere *</string>
+    <string name="no_email_app_fount">No email app found</string>
+    <string name="send_mail_to_modos">Ko si ohun elo imeeli kan </string>
+    <string name="comment_empty">Ọrọìwòye ṣofo</string>
+    <string name="posting_mod_comment">Ifiranṣẹ Modo ...</string>
+    <string name="shar_modo_post">Pin ifiranṣẹ ti o wa pẹlu awọn ayanfẹ</string>
+    <string name="liked">Gba</string>
+    <string name="my_profile">Profaili mi</string>
+    <string name="no_display_number">Ko si nọmba ifihan</string>
+    <string name="none">kò si</string>
+    <string name="submit">Firanṣẹ
+</string>
+    <string name="popular_topics">Gbajumo awọn akori</string>
+    <string name="submit_post">Submit Post</string>
+    <string name="write_a_modo">Kọ modo kan</string>
+    <string name="view_guide">View guide</string>
+    <string name="sign_out">Ifowosi jada</string>
+    <string name="your">rẹ</string>
+    <string name="bid">Ibere</string>
+    <string name="on">on</string>
+    <string name="declarinf_sold_to">Gbigbe tita si</string>
+    <string name="of">ti</string>
+    <string name="mail_winner">Mail Winner</string>
+    <string name="cancel_d">Cancel</string>
+    <string name="delete">Paarẹ</string>
+    <string name="bid_for_it">₦: Bid fun o </string>
+    <string name="deleting">Paarẹ</string>
+    <string name="your_modo">Rẹ modo</string>
+    <string name="yourmodo">Rẹ modo</string>
+    <string name="yourpost">Rẹ post</string>
+    <string name="onn">on</string>
+    <string name="about">About</string>
+</resources>

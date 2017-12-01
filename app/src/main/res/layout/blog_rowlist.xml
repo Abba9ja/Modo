@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="8dp"
+    android:elevation="3dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/top_rect"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintLeft_toRightOf="parent"
+                />
+
+            <ImageView
+                android:id="@+id/post_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                app:layout_constraintTop_toTopOf="@+id/imageView2"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                app:layout_constraintLeft_toLeftOf="@+id/imageView2"
+                app:layout_constraintLeft_toRightOf="@+id/imageView2">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="3dp"
+                    android:id="@+id/post_profile_pic"
+                    card_view:srcCompat="@drawable/ic_perm_identity_black_24dp"
+                    />
+                <RelativeLayout
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:id="@+id/post_user_name"
+                        android:text="@string/muhammad_shehu_bello"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/post_time"
+                        android:textSize="8sp"
+                        android:layout_below="@id/post_user_name"
+                        android:text="12:20pm 20th Nov, 2017"
+                        android:textColor="@android:color/darker_gray"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textAlignment="textStart"
+            android:textSize="13dp"
+            android:id="@+id/post_title"
+            android:text="@string/post_titlelbl"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="textStart"
+                android:textSize="9dp"
+                android:layout_weight="1"
+                android:id="@+id/post_price"
+                android:text="₦: "
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAlignment="textStart"
+                android:textSize="9dp"
+                android:layout_weight="1"
+                android:id="@+id/post_nego_stats"
+                android:text="Status: "
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/expand_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                expandableTextView:animAlphaStart="1"
+                expandableTextView:maxCollapsedLines="2">
+
+                <TextView
+                    android:id="@id/expandable_text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#666666"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+                <ImageButton
+                    android:id="@id/expand_collapse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|bottom"
+                    android:background="@android:color/transparent"
+                    />
+
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

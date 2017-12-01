@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Modo</string>
+
+    <string name="navigation_drawer_open">Akwa drawer na-emeghe</string>
+    <string name="navigation_drawer_close">Akwa drawer nso</string>
+
+    <string name="action_settings">Ntọala</string>
+
+    <string name="title_activity_welcome">Ihuenyo Home</string>
+    <string name="next">OSOTE</string>
+    <string name="skip">KWAPU</string>
+    <string name="start">NWETARA YA</string>
+
+   
+
+    <string name="unknown_sign_in_response">Nzaghachi amaghi na AuthUI sign-in</string>
+    <string name="unknown_error">Aghaghi ama amaghi</string>
+    <string name="no_internet_connection">Enweghị njikọ Ịntanetị</string>
+    <string name="sign_in_cancelled">A kagbuo aha</string>
+    <string name="fui_required_field" translation_description="Inline error for required field">Ị pụghị 'ịhapụ ihe efu a.</string>
+    <string name="unknown_response">Ihe a na-atụghị anya ya na Activity Result response code</string>
+    <string name="slide_1_title">Modo</string>
+    <string name="slide_1_desc">Ngwa ahụ bụ ngwa ngosi ihe osise na nka na-eme ka ndị ọrụ nka na-egosipụta na ọrụ ha n'elu ikpo okwu igwe maka ndị ọrụ ịhụ ma zụta.
+</string>
+
+    <string name="slide_3_title">Google Cloud Translation API</string>
+    <string name="slide_3_desc">Anyị na-eji Google Cloud Translation API iji sụgharịa ọdịnaya ngwa ahụ na asụsụ afọ ojuju gị. The API na-enye ihe dị mfe programmatic interface maka ịsụgharị eriri aka ike na asụsụ ọ bụla a na-akwado site na iji ntaneti Neural Machine Translation.</string>
+
+    <string name="slide_2_title">Na-echekwa echiche gị</string>
+    <string name="slide_2_desc">Nke a na ngwa a ga-enye gị ohere ịre ma gosipụta ọrụ ha dị mfe ma nwekwaa ohere.
+    </string>
+
+    <string name="slide_4_title">Kwuo Art na nka</string>
+    <string name="slide_4_desc">Kọwaa nkà na ọrụ gafee mgbasa ozi mgbasa ozi na ndị ezinụlọ na ndị enyi!</string>
+
+    <string name="play_again_desc">Iji hụ ihe mmịfe nnyefe ahụ ọzọ, goto Ntọala -> ngwa ọdịnala -> nnyefe nnata -> doo data</string>
+    <string name="play_again">Gwuo ugboro</string>
+   
+    <string name="developer">Onye Mmepụta</string>
+    <string name="muhammad_shehu_bello_abba9ja">Muhammad Shehu Bello (Abba9ja)</string>
+    <string name="title_activity_landing">LandingActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- - - - - - - - - - - -->
+    <!--Used by Preferences  -->
+    <!-- - - - - - - - - - - -->
+
+    <string name="pref_language_label">Choose language</string>
+
+    <!-- Key name for Langauge sort order preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_langauge_label_choose">Choose</string>
+    <string name="pref_langauge_label_english">English</string>
+    <string name="pref_langauge_label_hausa">Hausa</string>
+    <string name="pref_langauge_label_yoruba">Yoruba</string>
+    <string name="pref_langauge_label_igbo">Igbo</string>
+
+    <!-- Value in SharedPreferences for popular movies sort option [CHAR LIMIT=NONE] -->
+    <string name="pref_langauge_english" translatable="false">English</string>
+    <string name="pref_langauge_hausa" translatable="false">Hausa</string>
+    <string name="pref_langauge_yoruba" translatable="false">Yoruba</string>
+    <string name="pref_langauge_igbo" translatable="false">Igbo</string>
+
+    <string name="profile_details">Nkọwa nkọwa:</string>
+    <string name="namelbl">Aha:</string>
+    <string name="hausaCaps">HAUSA</string>
+    <string name="englishCaps">ENGLISH</string>
+    <string name="guideCaps">Nduzi</string>
+    <string name="click_on_the_add_picture_icon">pịa na tinye akara ngosi foto</string>
+    <string name="post_title">Ntughari aha ...</string>
+    <string name="post_description">Nkọwapụta nkọwa ...</string>
+    <string name="modo_it">Modo ya</string>
+    <string name="mail_user">Onye na-ede ozi</string>
+    <string name="email">Email:</string>
+    <string name="provider">Onye na-enye ihe:</string>
+    <string name="muhammad_shehu_bello">Muhammad Shehu Bello</string>
+    <string name="post_titlelbl">Obu akwukwo</string>
+    <string name="modo_with">Modo na</string>
+    <string name="done">Mere</string>
+    <string name="like">dị ka</string>
+    <string name="share">Kwuo</string>
+    <string name="phone">Ekwentị</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="loading_slowly">Jiri nwayọọ nwayọọ na-arụ ọrụ</string>
+    <string name="need_more_categories">Kwesịrị ịchọrọ ndị ọzọ</string>
+    <string name="problem_sharing">Mkpesa nsogbu</string>
+    <string name="app_shuting_down">Akwụsị na-adagharị</string>
+    <string name="additional_subject">Isiokwu ọzọ</string>
+    <string name="description_required">
+* Nkowasi (choro)</string>
+    <string name="dev_email_address">abba9ja@gmail.com</string>
+    <string name="send_app_mail_lbl">Ziga ozi na Onye Mmepụta:</string>
+    <string name="not_email_app">Enweghị ngwa email</string>
+    <string name="descriptio_required">Nkọwa a chọrọ!</string>
+    <string name="loading_slow">LOADING DATA SLOWLY,</string>
+    <string name="need_more_cate">NEED MORE CATEGORIES,</string>
+    <string name="problem_sharing_app_suggestion">HAVING PROBLEM SHARING,</string>
+    <string name="app_crashing">APP CRASHING,</string>
+    <string name="send">Zipu</string>
+    <string name="my_invitation">Nkpọku m</string>
+    <string name="app_suggestion">Atụ aro</string>
+    <string name="change_language">Gbanwee asụsụ</string>
+    <string name="my_post">M post</string>
+    <string name="my_account">Akaụntụ M</string>
+    <string name="home">Ulo</string>
+    <string name="tvcontinue">Gaa n\'ihu</string>
+    <string name="no_email">Enweghị ozi-e</string>
+    <string name="no_display_name">Enweghị aha ngosi</string>
+    <string name="providers_used">E nyere ndị na-enye onyinye:</string>
+    <string name="share_app_via">Kekọrịta ngwa site na</string>
+    <string name="my_post_title">Ozi m</string>
+    <string name="posting_to_modo">Na-edegara Modo ...</string>
+    <string name="picture_required">Foto achọrọ *</string>
+    <string name="no_email_app_fount">Enweghị ngwa email</string>
+    <string name="send_mail_to_modos">Zipu ozi na Modos:</string>
+    <string name="comment_empty">Echiche efu</string>
+    <string name="posting_mod_comment">Zipu Modo ...</string>
+    <string name="shar_modo_post">Kekọrịta Modo Post na ndị hụrụ n'anya</string>
+    <string name="liked">Echere</string>
+    <string name="my_profile">Ihe omuma m</string>
+    <string name="no_display_number">Enweghị nọmba ngosi</string>
+    <string name="none">ọ dịghị</string>
+    <string name="submit">Nyefee</string>
+    <string name="popular_topics">Okwu ndị mara mma</string>
+    <string name="submit_post">Nyefee Post</string>
+    <string name="write_a_modo">Dee modo</string>
+    <string name="view_guide">Lee ndu</string>
+    <string name="sign_out">Pụọ</string>
+    <string name="your">Gị</string>
+    <string name="bid">zụọ</string>
+    <string name="on">na</string>
+    <string name="declarinf_sold_to">Na-ekwuputa na ere ya</string>
+    <string name="of">nke</string>
+    <string name="mail_winner">Mail onye mmeri</string>
+    <string name="cancel_d">Akwara</string>
+    <string name="delete">Ehichapụ</string>
+    <string name="bid_for_it">₦: kwado ya</string>
+    <string name="deleting">Ihichapu</string>
+    <string name="your_modo">Gị modo</string>
+    <string name="yourmodo">Gị modo</string>
+    <string name="yourpost">Gị post</string>
+    <string name="onn">na</string>
+    <string name="about">Ihe</string>
+
+
+</resources>

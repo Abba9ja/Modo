@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.abba9ja.modo.ScrollingActivity">
+<item
+    android:id="@+id/action_delete"
+    app:showAsAction="ifRoom"
+    android:visible="false"
+    android:icon="@android:drawable/ic_menu_delete"
+    android:title="@string/share" />
+<item
+    android:id="@+id/action_share"
+    app:showAsAction="ifRoom"
+    android:icon="@android:drawable/ic_menu_share"
+    android:title="@string/share" />
+<item
+    android:id="@+id/action_lovr"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/ic_favorite_border_black_24dp"
+    android:title="@string/like" />
+</menu>

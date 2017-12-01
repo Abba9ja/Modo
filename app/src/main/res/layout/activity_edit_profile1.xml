@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/emailmc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".EditProfile1">
+
+    <FrameLayout
+        android:id="@+id/fmbg"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="@drawable/shape_down_rect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/siIvProfilePic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="50dp"
+        android:baselineAlignBottom="true"
+        android:minHeight="80dp"
+        android:minWidth="80dp"
+        android:src="@android:drawable/picture_frame"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fmbg"
+        app:layout_constraintVertical_bias="0.176" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/circle"
+        android:id="@+id/add_photo"
+        android:onClick="add_photo"
+        android:padding="3dp"
+        app:srcCompat="@drawable/ic_edit_black_15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/siIvProfilePic"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/siIvProfilePic"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/siIvProfilePic"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/top_right_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TILName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_perm_identity_black_20dp"
+                    android:hint="Full Name"
+                    android:inputType="textPersonName"
+                    android:textColorHint="@color/colorAccent1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TILEmailAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etEmailladd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_email_black_20dp"
+                    android:editable="true"
+                    android:hint="Email address"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/colorAccent1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.firebase.ui.auth.ui.phone.CountryListSpinner
+                    android:id="@+id/country_list"
+                    style="@style/FirebaseUI.CountrySpinner" />
+
+
+                <EditText
+                    android:id="@+id/phone_number"
+                    style="@style/AppTheme.TextInputEditText.PhoneField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/country_list"
+                    android:layout_gravity="end"
+                    android:layout_toEndOf="@id/country_list"
+                    android:layout_toRightOf="@id/country_list" />
+            </RelativeLayout>
+
+            <CheckBox
+                android:id="@+id/ckSetF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Set as default info" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
